@@ -21,3 +21,9 @@ Question 3
 [ ] 12- AllVersionsResolver : ajouter les dépendances transitives
 [ ] 13- AllVersionsResolver : garder toutes les versions en conflit
 [ ] 14- BuildTool : transmettre au résolveur les dépendances lues par le parser
+
+
+
+Question 5
+ La chaine "org.acme" apparaït dans le test et le code. 
+ Il reste du travail à faire car sinon la méthode renverra toujours la même valeur.
