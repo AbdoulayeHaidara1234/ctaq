@@ -1,8 +1,11 @@
 package org.example.mini_build;
 
-public record Gav(String group) {
+
+public record Gav(String group, String artifact, String version) {
 
     public static Gav parse(String coordinate) {
-        return new Gav("org.acme");
+        String[] parts = coordinate.split(":"); 
+        
+        return new Gav(parts[0], parts[1], parts[2]);
     }
 }
