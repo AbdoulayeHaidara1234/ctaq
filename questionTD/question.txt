@@ -1,0 +1,6 @@
+Question 2
+- JUnit permet d'écrire et d'exécuter les tests. 
+- Hamcrest rend les tests plus lisibles. 
+- Mockito permet de créer des doublures (bouchons, spies) pour isoler le composant testé. 
+- JaCoCo mesure la couverture du code par les tests. 
+- JaCoCo n'est pas une bibliothèque de test 
