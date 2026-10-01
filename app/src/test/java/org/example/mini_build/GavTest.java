@@ -11,4 +11,12 @@ class GavTest {
         Gav gav = Gav.parse("org.acme:lib-a:1.0.0"); // SUT = parse()
         assertEquals("org.acme", gav.group());
     }
+
+    @Test
+    void testExtraireGroupeArtefactVersion() {
+        Gav gav = Gav.parse("org.other:lib-c:3.0.0");
+        assertEquals("org.other", gav.group());
+        assertEquals("lib-c", gav.artefact());
+        assertEquals("3.0.0", gav.version());
+    }
 }
