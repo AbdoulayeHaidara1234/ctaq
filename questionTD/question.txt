@@ -4,3 +4,20 @@ Question 2
 - Mockito permet de créer des doublures (bouchons, spies) pour isoler le composant testé. 
 - JaCoCo mesure la couverture du code par les tests. 
 - JaCoCo n'est pas une bibliothèque de test 
+
+
+Question 3
+[ ] 1- Gav : découper e"group:artifact:version" en 3 parties
+[ ] 2- Gav : Valider la chaîne
+[ ] 3- InMemoryStorage : associer à chaque coordonnée l'artefact correspondant
+[ ] 4- BufferedLineReader : lire un fichier ligne par ligne
+[ ] 5- LineBasedPomParser : lire le nom du projet
+[ ] 6- LineBasedPomParser : lire les dépendances
+[ ] 7- LineBasedPomParser : ignorer les lignes vides
+[ ] 8- StorageBasedRegistry : publier un artefact
+[ ] 9- StorageBasedRegistry : rechercher un artefact publié
+[ ] 10- StorageBasedRegistry : refuser de republier une coordonnée déjà publiée
+[ ] 11- AllVersionsResolver : renvoyer les dépendances directes
+[ ] 12- AllVersionsResolver : ajouter les dépendances transitives
+[ ] 13- AllVersionsResolver : garder toutes les versions en conflit
+[ ] 14- BuildTool : transmettre au résolveur les dépendances lues par le parser
